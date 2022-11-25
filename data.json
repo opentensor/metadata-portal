@@ -1,7 +1,7 @@
 {
   "node-subtensor": {
     "title": "node-subtensor",
-    "color": "#FFFFFF",
+    "color": "#000000",
     "rpcEndpoint": "wss://archivelb.nakamoto.opentensor.ai:9943",
     "genesisHash": "0xadcb639cec07168f455d8bd3a43badf1114a414836829f5000e8279f70d4c667",
     "unit": "TAO",
