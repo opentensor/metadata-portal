@@ -1,28 +1,100 @@
 {
-  "node-subtensor": {
-    "title": "node-subtensor",
-    "color": "#000000",
-    "rpcEndpoint": "wss://archivelb.nakamoto.opentensor.ai:9943",
-    "genesisHash": "0xadcb639cec07168f455d8bd3a43badf1114a414836829f5000e8279f70d4c667",
-    "unit": "TAO",
-    "base58prefix": 42,
-    "logo": "node-subtensor",
-    "decimals": 9,
-    "metadataVersion": 111,
+  "polkadot": {
+    "title": "polkadot",
+    "color": "#e6007a",
+    "rpcEndpoint": "wss://rpc.polkadot.io",
+    "genesisHash": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+    "unit": "DOT",
+    "base58prefix": 0,
+    "logo": "polkadot",
+    "decimals": 10,
+    "metadataVersion": 9340,
     "metadataQr": {
-      "path": "qr/node-subtensor_metadata_111.apng",
-      "signedBy": "OpenTensor (Test)",
+      "path": "qr/polkadot_metadata_9340.apng",
+      "signedBy": "Parity",
+      "source": {
+        "type": "Wasm",
+        "github_repo": "paritytech/polkadot",
+        "hash": "0x2c8fd5d9578ce2b2f1010e341236ae9f2d08414501d359a15bd72044717ac84e"
+      }
+    },
+    "nextMetadataVersion": 9360,
+    "nextMetadataQr": {
+      "path": "qr/polkadot_metadata_9360.apng",
+      "signedBy": "Parity",
+      "source": {
+        "type": "Wasm",
+        "github_repo": "paritytech/polkadot",
+        "hash": "0x9eff710dc1bf46d2ff5a8ac7aa3fddb63a8cb141bb184e6aa776a1d9c97aca0b"
+      }
+    },
+    "latestMetadata": "qr/polkadot_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/polkadot_specs.png",
+      "signedBy": "Parity",
+      "source": null
+    }
+  },
+  "kusama": {
+    "title": "kusama",
+    "color": "#000000",
+    "rpcEndpoint": "wss://kusama-rpc.polkadot.io",
+    "genesisHash": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+    "unit": "KSM",
+    "base58prefix": 2,
+    "logo": "kusama",
+    "decimals": 12,
+    "metadataVersion": 9360,
+    "metadataQr": {
+      "path": "qr/kusama_metadata_9360.apng",
+      "signedBy": "Parity",
+      "source": {
+        "type": "Wasm",
+        "github_repo": "paritytech/polkadot",
+        "hash": "0xc5224f4b12f1c1d9af9462d723fd8c58d2d965c6fb98bbfc6fed72fd9fc7f113"
+      }
+    },
+    "nextMetadataVersion": 9370,
+    "nextMetadataQr": {
+      "path": "qr/kusama_metadata_9370.apng",
+      "signedBy": "Parity",
+      "source": {
+        "type": "Wasm",
+        "github_repo": "paritytech/polkadot",
+        "hash": "0xed87da6ce6ef52c150977f3b2ac03a7edfd4cd1175574e5fd49bbe86c27e3514"
+      }
+    },
+    "latestMetadata": "qr/kusama_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kusama_specs.png",
+      "signedBy": "Parity",
+      "source": null
+    }
+  },
+  "westend": {
+    "title": "westend",
+    "color": "#f27230",
+    "rpcEndpoint": "wss://westend-rpc.polkadot.io",
+    "genesisHash": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
+    "unit": "WND",
+    "base58prefix": 42,
+    "logo": "westend",
+    "decimals": 12,
+    "metadataVersion": 9370,
+    "metadataQr": {
+      "path": "qr/westend_metadata_9370.apng",
+      "signedBy": "Parity",
       "source": {
         "type": "Rpc",
-        "block": "0x92b3b9d4d3398fde3d02a1347db6922b5d4f67a33d387cedb87dfe0bb3c32704"
+        "block": "0x499a8fac786a19b4b36182db599224e755980445c47ee499c1c6d5aa8bf2a958"
       }
     },
     "nextMetadataVersion": null,
     "nextMetadataQr": null,
-    "latestMetadata": "qr/node-subtensor_metadata_latest.apng",
+    "latestMetadata": "qr/westend_metadata_latest.apng",
     "specsQr": {
-      "path": "qr/node-subtensor_specs.png",
-      "signedBy": "OpenTensor (Test)",
+      "path": "qr/westend_specs.png",
+      "signedBy": "Parity",
       "source": null
     }
   }
