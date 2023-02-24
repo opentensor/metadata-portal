@@ -14,5 +14,5 @@ runs:
         toolchain: stable
         components: clippy, rustfmt
 
-    - name: Rust Cache
-      uses: Swatinem/rust-cache@842ef286fff290e445b90b4002cc9807c3669641
+    - name: 💾 Rust Cache
+      uses: Swatinem/rust-cache@v2
