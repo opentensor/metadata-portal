@@ -1,20 +1,20 @@
 {
   "node-subtensor": {
     "title": "node-subtensor",
-    "color": "#000000",
-    "rpcEndpoint": "wss://archivelb.nakamoto.opentensor.ai:9943",
-    "genesisHash": "0xadcb639cec07168f455d8bd3a43badf1114a414836829f5000e8279f70d4c667",
+    "color": "#FFFFFF",
+    "rpcEndpoint": "ws://209.126.7.11:9944",
+    "genesisHash": "0x2f0555cc76fc2840a25a6ea3b9637146806f1f44b090c175ffde2a7e5ab36c03",
     "unit": "TAO",
     "base58prefix": 42,
     "logo": "node-subtensor",
     "decimals": 9,
-    "metadataVersion": 112,
+    "metadataVersion": 107,
     "metadataQr": {
-      "path": "qr/node-subtensor_metadata_112.apng",
+      "path": "qr/node-subtensor_metadata_107.apng",
       "signedBy": "Local Metadata Signer",
       "source": {
         "type": "Rpc",
-        "block": "0x5d8a974a4ea4c6aff1f1130349d28c6ee3c4129ee2b4bb369cb4ef6f157615a2"
+        "block": "0xb628f380e65fefe4a3128b61660dc220de9ea41f5145612919bc1ffd352bd75b"
       }
     },
     "nextMetadataVersion": null,
