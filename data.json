@@ -1,20 +1,20 @@
 {
   "node-subtensor": {
     "title": "node-subtensor",
-    "color": "#FFFFFF",
-    "rpcEndpoint": "ws://209.126.7.11:9944",
+    "color": "#000000",
+    "rpcEndpoint": "wss://entrypoint-finney.opentensor.ai:443",
     "genesisHash": "0x2f0555cc76fc2840a25a6ea3b9637146806f1f44b090c175ffde2a7e5ab36c03",
     "unit": "TAO",
     "base58prefix": 42,
     "logo": "node-subtensor",
     "decimals": 9,
-    "metadataVersion": 107,
+    "metadataVersion": 110,
     "metadataQr": {
-      "path": "qr/node-subtensor_metadata_107.apng",
+      "path": "qr/node-subtensor_metadata_110.apng",
       "signedBy": "Local Metadata Signer",
       "source": {
         "type": "Rpc",
-        "block": "0xb628f380e65fefe4a3128b61660dc220de9ea41f5145612919bc1ffd352bd75b"
+        "block": "0xdef6b68b7d706a381179388cc20fe9877c5b3f90f9061a3beb703ba7cb90c5ca"
       }
     },
     "nextMetadataVersion": null,
