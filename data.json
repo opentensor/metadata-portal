@@ -8,13 +8,13 @@
     "base58prefix": 42,
     "logo": "node-subtensor",
     "decimals": 9,
-    "metadataVersion": 119,
+    "metadataVersion": 120,
     "metadataQr": {
-      "path": "qr/node-subtensor_metadata_119.apng",
+      "path": "qr/node-subtensor_metadata_120.apng",
       "signedBy": "Local Metadata Signer",
       "source": {
         "type": "Rpc",
-        "block": "0x6bcf4c2b947105539fc6fea47f2baeba29400fb45599dc7605046e173097c9a0"
+        "block": "0xcbcef84a02339a8b92391d668551dc69b7aee4db9f4e6b5fe1e4fc12669f7701"
       }
     },
     "nextMetadataVersion": null,
