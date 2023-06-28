@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.532a75c9.css",
-    "main.js": "/static/js/main.75b5bce1.js",
-    "static/media/Inter-Bold.woff": "/static/media/Inter-Bold.00dc41b74c73bd548602.woff",
-    "static/media/Web3-Regular.woff": "/static/media/Web3-Regular.5471d3ea491575c4087a.woff",
-    "static/media/Web3-Regular.woff2": "/static/media/Web3-Regular.a0e473333c74d873ba89.woff2",
-    "static/media/nakamoto_tao.svg": "/static/media/nakamoto_tao.4c07093dd2dde1f2d11975ca46df4026.svg",
+    "main.css": "/static/css/main.625998ef.css",
+    "main.js": "/static/js/main.0a4442fa.js",
     "static/media/finney_tao.svg": "/static/media/finney_tao.3ccc2fbc6b7d13be5364853ff78d275d.svg",
+    "static/media/polkadot.svg": "/static/media/polkadot.7e356a76d93533052931dda2c013650e.svg",
+    "static/media/kusama.svg": "/static/media/kusama.d9a93a0fd9ff87e4de894486742039d4.svg",
     "index.html": "/index.html",
-    "main.532a75c9.css.map": "/static/css/main.532a75c9.css.map",
-    "main.75b5bce1.js.map": "/static/js/main.75b5bce1.js.map"
+    "static/media/vault.svg": "/static/media/vault.1aa02aa17789e8cf6d405b6deddda21c.svg",
+    "static/media/westend.svg": "/static/media/westend.d2256c4fb719c6738bbe03f24408a797.svg",
+    "main.625998ef.css.map": "/static/css/main.625998ef.css.map",
+    "main.0a4442fa.js.map": "/static/js/main.0a4442fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.532a75c9.css",
-    "static/js/main.75b5bce1.js"
+    "static/css/main.625998ef.css",
+    "static/js/main.0a4442fa.js"
   ]
 }
