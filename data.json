@@ -8,18 +8,8 @@
     "base58prefix": 42,
     "logo": "node-subtensor",
     "decimals": 9,
-    "liveMetaVersion": 124,
-    "metadataQr": {
-      "version": 124,
-      "file": {
-        "path": "qr/node-subtensor_metadata_124.apng",
-        "signedBy": "Local Metadata Signer",
-        "source": {
-          "type": "Rpc",
-          "block": "0x116793323b74696e8127b6046027ec90cbd8bd117fb5f59cac80d762d8fa80d3"
-        }
-      }
-    },
+    "liveMetaVersion": 125,
+    "metadataQr": null,
     "latestMetadata": "qr/node-subtensor_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node-subtensor_specs.png",
