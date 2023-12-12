@@ -9,7 +9,17 @@
     "logo": "node-subtensor",
     "decimals": 9,
     "liveMetaVersion": 138,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 138,
+      "file": {
+        "path": "qr/node-subtensor_metadata_138.apng",
+        "signedBy": "Local Metadata Signer",
+        "source": {
+          "type": "Rpc",
+          "block": "0xa0736636989e2925c270e23a49e9314772124665e6012571d036f7ff65a10c82"
+        }
+      }
+    },
     "latestMetadata": "qr/node-subtensor_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node-subtensor_specs.png",
