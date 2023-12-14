@@ -8,7 +8,7 @@
     "base58prefix": 42,
     "logo": "node-subtensor",
     "decimals": 9,
-    "liveMetaVersion": 139,
+    "liveMetaVersion": 140,
     "metadataQr": null,
     "latestMetadata": "qr/node-subtensor_metadata_latest.apng",
     "specsQr": {
