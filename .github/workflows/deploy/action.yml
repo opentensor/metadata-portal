@@ -3,6 +3,10 @@ inputs:
     description: 'Github token'
     required: true
 
+permissions:
+  pages: true
+  write: true
+
 runs:
   using: "composite"
   steps:
