@@ -8,8 +8,7 @@ on:
 jobs:
   deploy:
     permissions:
-      contents: read
-      pages: write
+      contents: write
     
     runs-on: ubuntu-latest
 
