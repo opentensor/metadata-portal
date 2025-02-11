@@ -69,7 +69,7 @@ export const Network = ({
             src={icon(chainPortalId)}
             className="w-14 h-14 rounded-full bg-neutral-200"
           />
-           <span>
+          <span>
             {formatTitle(
               spec.title === "node-subtensor" ? "Bittensor" : spec.title,
             )}
@@ -104,9 +104,12 @@ export const Network = ({
                 {!metadataQr && (
                   <div className="flex aspect-square text-center">
                     <div className="m-auto">
-                      The metadata for {spec.title === "node-subtensor" ? "Bittensor" : spec.title} Network is out of date.
-                      Request the new metadata version by creating a Github
-                      issue.
+                      The metadata for{" "}
+                      {spec.title === "node-subtensor"
+                        ? "Bittensor"
+                        : spec.title}{" "}
+                      Network is out of date. Request the new metadata version
+                      by creating a Github issue.
                       {createGithubIssueLink}
                     </div>
                   </div>
