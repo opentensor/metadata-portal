@@ -108,11 +108,11 @@ export const NetworkAndPortalSelectMobile = ({
                   >
                     <img src={icon(chain)} className="w-8 rounded-full" />
                     <div className="text-xl">
-                    {formatTitle(
-                      chains[chain].title === "node-subtensor"
-                        ? "Bittensor"
-                        : chains[chain].title,
-                    )}
+                      {formatTitle(
+                        chains[chain].title === "node-subtensor"
+                          ? "Bittensor"
+                          : chains[chain].title,
+                      )}
                     </div>
                   </div>
                 )}
