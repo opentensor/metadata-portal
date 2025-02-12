@@ -14,7 +14,10 @@
       "file": {
         "path": "qr/node-subtensor_metadata_219.apng",
         "signedBy": "Local Metadata Signer",
-        "source": null
+        "source": {
+          "type": "Rpc",
+          "block": "0x9f9ad36203c81083068c1ec57754ce464071a2f71a69f10139d454a1ca78c4ce"
+        }
       }
     },
     "latestMetadata": "qr/node-subtensor_metadata_latest.apng",
