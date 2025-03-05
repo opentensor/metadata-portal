@@ -12,5 +12,5 @@ rpc_endpoint = "wss://lite.chain.opentensor.ai:443"
 
 [chains.github_release]
 owner = "opentensor"
-repo = "subtensorv3"
+repo = "subtensor"
 genesis_hash = "0x2f0555cc76fc2840a25a6ea3b9637146806f1f44b090c175ffde2a7e5ab36c03"
