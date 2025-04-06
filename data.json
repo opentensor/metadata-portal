@@ -8,11 +8,11 @@
     "base58prefix": 42,
     "logo": "node-subtensor",
     "decimals": 9,
-    "liveMetaVersion": 257,
+    "liveMetaVersion": 258,
     "metadataQr": {
-      "version": 257,
+      "version": 258,
       "file": {
-        "path": "qr/node-subtensor_metadata_257.apng",
+        "path": "qr/node-subtensor_metadata_258.apng",
         "signedBy": "Local Metadata Signer",
         "source": null
       }
