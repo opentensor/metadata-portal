@@ -67,7 +67,13 @@ fn camera_capture(camera: &mut videoio::VideoCapture) -> anyhow::Result<GrayImag
         ImageBuffer::new(frame.size()?.width as u32, frame.size()?.height as u32);
     let mut ocv_gray_image = Mat::default();
 
-    cvt_color(&frame, &mut ocv_gray_image, COLOR_BGR2GRAY, 0, opencv::core::AlgorithmHint::ALGO_HINT_DEFAULT)?;
+    cvt_color(
+        &frame,
+        &mut ocv_gray_image,
+        COLOR_BGR2GRAY,
+        0,
+        opencv::core::AlgorithmHint::ALGO_HINT_DEFAULT,
+    )?;
 
     for y in 0..ocv_gray_image.rows() {
         for x in 0..ocv_gray_image.cols() {
